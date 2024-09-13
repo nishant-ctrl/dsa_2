@@ -15,7 +15,7 @@ void add_to_sorted_list(int list[] , int key , int count)
     int i=count;
     int j=i-1;
     if(count!=0)
-    {   while(list[j]>key)
+    {   while(list[j]>key && j>=0)
         {
             list[j+1]=list[j];
             j--;
