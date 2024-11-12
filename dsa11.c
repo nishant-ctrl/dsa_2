@@ -136,7 +136,7 @@ int main()
             else
             {
                 printf("Move failed. Returning disk to original stack.\n");
-                push(source_stack, source_top, element); // Put back the disk on the original stack
+                push(source_stack, source_top, element);
             }
         }
         if (is_game_solved(top3, n))
